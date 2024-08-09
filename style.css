@@ -1,0 +1,38 @@
+.focus-input:focus {
+    border-color: #ff9800;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 60%;
+    box-sizing: border-box; 
+    box-shadow: 0 0 10px rgba(255, 152, 0, 0.5);
+    background-color: #fff8f0; 
+    outline: none;
+    transition: all 0.3s ease; 
+}
+#find{
+    border: 2px solid #c4a79e; 
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 60%;
+    box-sizing: border-box; 
+    background-color: #fff8f0; 
+    transition: all 0.3s ease; 
+}
+
+body .card{
+    border: 2px solid darkgray !important;
+    box-shadow: 4px 4px 5px gray;
+    border-spacing: 2rem !important;
+    margin: 2rem;
+    background-color: rgb(229, 231, 231);
+ 
+}
+img{
+    
+    background-image: url(./img/Eclipse@1x-1.0s-200px-200px.gif);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
